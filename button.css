@@ -1,0 +1,6 @@
+button{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    box-shadow: #774082c2 0px 54px 55px, rgba(62, 168, 48, 0.12) 0px -12px 30px, rgba(52, 71, 108, 0.12) 0px 4px 6px, rgba(16, 30, 50, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
