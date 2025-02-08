@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css"
+    <title>Move Button Example</title>
+    <style>
+        button {
+            position: absolute;
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+<button id="moveButton">Click Me!</button>
+
+<script>
+    const button = document.getElementById("moveButton");
+
+    button.addEventListener("click", function() {
+        // Get random values for movement
+        const randomX = Math.floor(Math.random() * window.innerWidth);
+        const randomY = Math.floor(Math.random() * window.innerHeight);
+
+        // Move the button to a new random position
+        button.style.left = randomX + "px";
+        button.style.top = randomY + "px";
+    });
+</script>
+
+</body>
+</html>
